@@ -1,0 +1,37 @@
+body
+{
+    background-color: bisque;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1 
+{
+    color: darkblue;
+}
+
+li 
+{
+    cursor: pointer;
+    text-align: center;
+    list-style-type: none;
+}
+
+.completed
+{
+    text-decoration: line-through;
+    color:gray;
+}
+
+.warning 
+{
+    color: red;
+    display: block;
+    margin: 5px 5px;
+}
+.trashcan 
+{
+    font-size: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
